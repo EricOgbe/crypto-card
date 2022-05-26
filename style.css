@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    
+    width: 18vw;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 1%;
+    
+}
+.starter-pic {
+    height: 50%;
+    width: 18vw;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.nft-name {
+    color: white;
+    cursor: pointer;
+}
+.nft-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+.description {
+    color: hsl(215, 51%, 70%)
+}
+.priceDays {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+}
+.days {
+    color: hsl(215, 51%, 70%);
+}
+i {
+    margin-right: 4px;
+}
+hr {
+    border-color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+  
+}
+.creator {
+    display: flex;
+}
+.avatar {
+    height: 15%;
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.name {
+    color: white;
+    cursor: pointer;
+}
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+.creation {
+    color: hsl(215, 51%, 70%);
+}
